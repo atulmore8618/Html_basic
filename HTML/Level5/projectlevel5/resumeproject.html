@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Details</title>
+</head>
+<body>
+    <h1>Fill details to generate your Resume</h1><hr>
+
+    <form action="/cannotget.php" method="post">
+        
+    <label for="username" type="username">Username: </label>
+    <input id="username" name="username" required type="email" placeholder="enter username">
+
+    <br><br>
+
+    <label for="password">Password: </label>
+    <input type="password" name="password" placeholder=" enter password">
+
+    <br><br>
+    
+    <label for="dob">Enter DOB: </label>
+    <input type="date" name="date" id="dob">
+
+    <br><br>
+
+    Select Gender:
+    <label for="male">Male</label> 
+    <input type="radio" name="gender" id="male" value="male">
+
+    <label for="female">Female</label>
+    <input type="radio" name="gender" id="female" value="female">
+
+    <label for="others">Others</label>
+    <input type="radio" name="gender" id="others" value="others">
+
+    <br><br>
+
+    <label for="education">Select Education level: </label>
+    <select name="level" id="education">
+        <option value="SSC">SSC</option>
+        <option value="HSC">HSC</option>
+        <option value="Graduation">Graduation</option>
+        <option value="Masters">Masters</option>
+    </select>
+
+    <br><br>
+
+    <label for="educationin">Educated in which field: </label>
+    <textarea name="education" id="educationin" rows="1" cols="5"></textarea>
+
+    <br><br>
+
+    Select Skills:
+    <label for="skills">JAVA</label>
+    <input type="checkbox" name="JAVA" id="skills">
+
+    <label for="skills">Python</label>
+    <input type="checkbox" name="JAVA" id="skills">
+
+    <label for="skills">C,C++</label>
+    <input type="checkbox" name="C,C++" id="skills">
+
+    <br><br>
+
+    <label for="file">Upload previous resume: </label>
+    <input type="file" id="file">
+
+    <br><br>
+
+    <input type="button" value="Submit">
+
+    </form>
+    
+    <hr>
+
+    <iframe width="300" height="200" src="https://www.youtube.com/embed/rklidcZ-aLU?si=n6Tsla-neUY1UMi7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</body>
+</html>
